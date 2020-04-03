@@ -23,7 +23,7 @@ Suppose we're building a community for a bio tech company. Part of the revenue f
 
 So when a farmer logs into the community & selects a licence to buy we need to create a cart, an apple licence, and a cart item for the farmer.
 
-Let's assume the cart & the apple licence are created for us & all we have to build is the cart item. How might a builder for that job?
+Let's assume the cart & the apple licence are created for us & all we have to build is the cart item. How might we create builder for that job?
 
 	AppleLicenceCartItemBuilder
 		Cart 
@@ -91,7 +91,7 @@ Now to create cart items all we have to do is:
 
 ![a more complicated builder](/assets/images/builder_2.png)
 
-This is great because it encapsulates the complexity of building generic cart items. There's a little bit of code duplication in the build methods, but there's a lot of good here. Now we can ignore how a generic cart item is built when building a specific cart item. For example, if the cart item needed to copy a description from the product then only the CartItemBuilder would need to change.
+This is great because it encapsulates the complexity of building generic cart items. There's a little bit of code duplication in the build methods; but there's also a lot of good here. Now we can ignore how a generic cart item is built when building a specific cart item. For example, if the cart item needed to copy a description from the product then only the CartItemBuilder would need to change.
 
 	abstract CartItemBuilder
 		Cart
