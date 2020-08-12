@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Start Debug Trace From Shell"
+date:   2020-06-03
+categories: SFDX
+author: john
+---
+
 Some of us are trying out VSCode + Salesforce Extension pack as an alternative to Intellij + Illuminated Cloud. VSCode is more responsive than Intellij, and, while IC is more feature-rich, the Salesforce Extension pack gets the job done. I only find myself back in IJ + IC when working on a 1st generation package. 
 
 That being said, when running apex tests VSC+SE pales in comparison to IJ+IC. The biggest features missing are:

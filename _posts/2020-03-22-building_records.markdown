@@ -3,6 +3,7 @@ layout: post
 title:  "Patterns For Building Records In Salesforce"
 date:   2020-03-22
 categories: Apex Design Patterns
+author: john
 ---
 
 What is the best way to build a record in Salesforce?

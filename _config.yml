@@ -22,17 +22,27 @@ title: Traction Rec Dev Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Salesforce Development for the AppExchange
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://recdevs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://devblog.tractionrec.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: recdevs
 
 disqus:
-  shortname: devblog-12
+  shortname: devblog-12 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  
+collections:
+    authors:
+      output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -3,6 +3,7 @@ layout: post
 title:  "A Gradle + SFDX love story: Automation & Symbols"
 date:   2020-08-10
 categories: SFDX Gradle IntelliJ IlluminatedCloud2 Groovy
+author: jonny
 ---
 
 # Configure your project with Gradle and have a working symbol table for complicated multi-module projects
