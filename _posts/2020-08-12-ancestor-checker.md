@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Validating 2nd Gen Package Ancestory"
+title:  "Validating 2nd Gen Package Ancestry"
 date:   2020-08-12
 categories: SFDX packaging
 author: john
