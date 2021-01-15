@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3 Apex Batch Gotchas"
-date:   2020-12-04
+date:   2021-01-15
 categories: Apex
 author: john
 ---
